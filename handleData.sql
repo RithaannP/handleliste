@@ -1,5 +1,24 @@
-INSERT INTO handleliste (navn, antall)
-VALUES 
-    ('HMelk', 1),
-    ('YT Sjokomlek', 3),
-    ('Storfe kjottdeig',2);
+INSERT INTO produkt (navn, kategori)
+VALUES
+    ('H-melk', 'Essentials'),
+    ('YT Sjokomelk', 'Essentials'),
+    ('Kjøttdeig', 'Essentials'),
+    ('Potet', 'Essentials'),
+    ('Søtpotet', 'Essentials'),
+    ('Strimla kyllinglårfilet', 'Essentials'),
+    ('Taco-krydder', 'Essentials'),
+    ('Tortilla-wraps', 'Essentials'),
+    ('Gresk yoghurt', 'Essentials'),
+    ('Egg', 'Essentials'),
+    ('Mørk sjokolade', 'Essentials'),
+    ('Havregryn', 'Essentials'),
+    ('Løk', 'Essentials'),
+    ('Smør', 'Diverse'),
+    ('Olivenolje', 'Diverse'),
+    ('Matfløte', 'Diverse'),
+    ('Ris', 'Diverse'),
+    ('Paprika', 'Diverse'),
+    ('Sardiner', 'Diverse'),
+    ('Ketchup', 'Diverse'),
+    ('Sennep', 'Diverse'),
+    ('Rødløk', 'Diverse');

@@ -4,7 +4,8 @@ connect = sqlite3.connect("handleliste.db")
 
 handlliste = connect.execute(""" 
     SELECT *
-    FROM handleliste
+    FROM produkt
+    WHERE produkt.kategori = 'Essentials'
 """).fetchall()
 
 
